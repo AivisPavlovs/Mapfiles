@@ -1,0 +1,896 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<kml xmlns="http://earth.google.com/kml/2.2">
+  <Document>
+    <StyleMap id="FL_Red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#FL_Red_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#FL_Red_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="FL_Red_n">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/FL.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="FL_Red_h">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/FL.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="FL_Orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#FL_Orange_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#FL_Orange_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="FL_Orange_n">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="FL_Orange_h">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/FL.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="FL_Green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#FL_Green_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#FL_Green_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="FL_Green_n">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="FL_Green_h">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/FL.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="VO_Red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#VO_Red_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#VO_Red_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="VO_Red_n">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/VO.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="VO_Red_h">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/VO.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="VO_Orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#VO_Orange_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#VO_Orange_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="VO_Orange_n">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/VO.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="VO_Orange_h">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/VO.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="VO_Green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#VO_Green_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#VO_Green_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="VO_Green_n">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/VO.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="VO_Green_h">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/VO.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="VO_White">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#VO_White_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#VO_White_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="VO_White_n">
+      <LabelStyle>
+        <color>FFEEEEEE</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/Gray/VO.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="VO_White_h">
+      <LabelStyle>
+        <color>FFEEEEEE</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/Gray/VO.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="EQ_Red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#EQ_Red_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#EQ_Red_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="EQ_Red_n">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="EQ_Red_h">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/EQ.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="EQ_Orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#EQ_Orange_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#EQ_Orange_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="EQ_Orange_n">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="EQ_Orange_h">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/EQ.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="EQ_Green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#EQ_Green_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#EQ_Green_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="EQ_Green_n">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="EQ_Green_h">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/EQ.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <Style id="VO_0_n">
+      <LineStyle>
+        <color>ffdddddd</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_0_h">
+      <LineStyle>
+        <color>ffdddddd</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_6_n">
+      <LineStyle>
+        <color>ffC0C0C0</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_6_h">
+      <LineStyle>
+        <color>ffC0C0C0</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_12_n">
+      <LineStyle>
+        <color>ff969696</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_12_h">
+      <LineStyle>
+        <color>ff969696</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_18_n">
+      <LineStyle>
+        <color>ff808080</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="VO_18_h">
+      <LineStyle>
+        <color>ff808080</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="Wind39">
+      <LineStyle>
+        <color>ff00ff00</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="Wind58">
+      <LineStyle>
+        <color>ff1134fa</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="Wind74">
+      <LineStyle>
+        <color>ff1134fa</color>
+        <width>3</width>
+      </LineStyle>
+    </Style>
+    <Style id="FL_Line_blue">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="Cone3">
+      <LineStyle>
+        <color>ffFF0033</color>
+        <width>2</width>
+      </LineStyle>
+    </Style>
+    <Style id="Cone5">
+      <LineStyle>
+        <color>ff888888</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="EQ_Circle">
+      <LineStyle>
+        <color>ffaaaaaa</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="EQ_Intensity">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <Style id="FL_Affected">
+      <LineStyle>
+        <color>ffff0033</color>
+        <width>1</width>
+      </LineStyle>
+    </Style>
+    <StyleMap id="TC_Red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Red_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Red_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Red_n">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Red_h">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="TC_Orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Orange_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Orange_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Orange_n">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Orange_h">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="TC_Green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Green_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Green_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Green_n">
+      <LineStyle>
+        <color>ff33cc66</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Green_h">
+      <LineStyle>
+        <color>ff33cc66</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="TC_Red_V2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Red_V2_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Red_V2_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Red_V2_n">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <PolyStyle>
+        <color>#ff0000ff</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Red_V2_h">
+      <LineStyle>
+        <color>ff0000ff</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <PolyStyle>
+        <color>#ff0000ff</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="TC_Orange_V2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Orange_V2_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Orange_V2_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Orange_V2_n">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>#ff0066ff</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Orange_V2_h">
+      <LineStyle>
+        <color>ff0066ff</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>#ff0066ff</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="TC_Green_V2">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#TC_Green_V2_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#TC_Green_V2_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="TC_Green_V2_n">
+      <LineStyle>
+        <color>ff33cc66</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>FF33CC66</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Green_V2_h">
+      <LineStyle>
+        <color>ff33cc66</color>
+        <width>1</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>FF33CC66</color>
+        <outline>1</outline>
+      </PolyStyle>
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/TC.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <Style id="TC_Line">
+      <LineStyle>
+        <color>ffffff00</color>
+        <width>1</width>
+      </LineStyle>
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="TC_Polygon_Point">
+      <Icon>
+        <href>http://www.gdacs.org/images/gdacs_icons/maps/placemark_circle.png</href>
+      </Icon>
+      <scale>1.3</scale>
+    </Style>
+	<StyleMap id="WF_Red">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#WF_Red_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#WF_Red_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="WF_Red_n">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/WF.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="WF_Red_h">
+      <LabelStyle>
+        <color>FF490DF5</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Red/WF.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="WF_Orange">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#WF_Orange_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#WF_Orange_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="WF_Orange_n">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/WF.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="WF_Orange_h">
+      <LabelStyle>
+        <color>FF00BAFF</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Orange/WF.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="WF_Green">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#WF_Green_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#WF_Green_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="WF_Green_n">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/WF.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="WF_Green_h">
+      <LabelStyle>
+        <color>FF58B41A</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/maps/Green/WF.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+    <StyleMap id="WF_White">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#WF_White_n</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#WF_White_h</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="WF_White_n">
+      <LabelStyle>
+        <color>FFEEEEEE</color>
+        <scale>0</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/Gray/WF.png</href>
+        </Icon>
+        <scale>1.1</scale>
+        <hotSpot x="20" y="2" xunits="pixels" yunits="pixels"/>
+      </IconStyle>
+    </Style>
+    <Style id="WF_White_h">
+      <LabelStyle>
+        <color>FFEEEEEE</color>
+        <scale>1</scale>
+      </LabelStyle>
+      <IconStyle>
+        <Icon>
+          <href>http://www.gdacs.org/images/gdacs_icons/Gray/WF.png</href>
+        </Icon>
+        <scale>1.3</scale>
+      </IconStyle>
+    </Style>
+  </Document>
+</kml>  
+  
