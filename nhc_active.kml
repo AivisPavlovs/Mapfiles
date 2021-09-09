@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <NetworkLinkControl>
+    <minRefreshPeriod>120</minRefreshPeriod>
+    <expires>Thu Sep  9 13:00:32 UTC 2021</expires>
+  </NetworkLinkControl>
+  <Document id="active">
+    <name>Active Tropical Cyclones</name>
+    <description>
+      <![CDATA[<TABLE>
+      <TR><TD><B>Last Update:</B> Thu Sep  9 11:00:32 UTC 2021</TD></TR>
+      <TR><TD><B>Created By:</B> NOAA/NWS National Hurricane Center</TD></TR>
+      <TR><TD><B>Disclaimer:</B> The NHC Active KML format is an experimental product.</TD></TR>
+      <TR><TD><B>For More Information: </B><a href="https://www.nhc.noaa.gov">https://www.nhc.noaa.gov</a></TD></TR></TABLE>]]>
+    </description>
+    <ScreenOverlay id="activeLegend">
+      <name>Legend</name>
+      <drawOrder>100</drawOrder>
+      <Icon>
+        <href>https://www.nhc.noaa.gov/images/interactive_cone_legend.jpg</href>
+      </Icon>
+      <overlayXY x="0" y="0" xunits="fraction" yunits="fraction" />
+      <screenXY x="0" y="0" xunits="fraction" yunits="fraction" />
+      <rotationXY x="0.5" y="0.5" xunits="fraction" yunits="fraction" />
+      <size x="-1" y="-1" xunits="pixels" yunits="pixels" />
+      <visibility>0</visibility>
+    </ScreenOverlay>
+    <Folder id="wsp">
+      <name>Wind Speed Probabilities (120 hours)</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <Folder id="wspValues">
+        <name>Values</name>
+        <visibility>1</visibility>
+        <open>1</open>
+        <Style>
+          <ListStyle>
+            <listItemType>radioFolder</listItemType>
+          </ListStyle>
+        </Style>
+        <NetworkLink id="wsp34">
+          <name>Probability of Tropical-Storm-force winds (34-kt)</name>
+          <visibility>1</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2021090906_wsp34knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+        <NetworkLink id="wsp50">
+          <name>Probability of 50 knot winds</name>
+          <visibility>0</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2021090906_wsp50knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+        <NetworkLink id="wsp64">
+          <name>Probability of Hurricane-force winds (64-kt)</name>
+          <visibility>0</visibility>
+          <open>0</open>
+          <Link>
+            <href>https://www.nhc.noaa.gov/gis/forecast/archive/2021090906_wsp64knt120hr_5km.kmz</href>
+          </Link>
+        </NetworkLink>
+      </Folder>
+    </Folder>
+    <Folder id="at2">
+      <name>Hurricane Larry</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <ExtendedData>
+        <Data name="tcType">
+          <value>Hurricane</value>
+        </Data>
+        <Data name="tcName">
+          <value>Larry</value>
+        </Data>
+        <Data name="wallet">
+          <value>AT2</value>
+        </Data>
+        <Data name="atcfID">
+          <value>AL122021</value>
+        </Data>
+        <Data name="centerLat">
+          <value>30.9</value>
+        </Data>
+        <Data name="centerLon">
+          <value>-61.1</value>
+        </Data>
+        <Data name="dateTime">
+          <value>5:00 AM AST Thu Sep 9</value>
+        </Data>
+        <Data name="movement">
+          <value>NNW at 16 mph</value>
+        </Data>
+        <Data name="minimumPressure">
+          <value>969 mb</value>
+        </Data>
+        <Data name="maxSustainedWind">
+          <value>100 mph</value>
+        </Data>
+        <Data name="headline">
+          <value> ...BERMUDA WEATHER SERVICE RADAR SHOWS RAINBANDS APPROACHING... ...HURRICANE AND TROPICAL STORM WATCHES ARE IN EFFECT FOR SOUTHEASTERN NEWFOUNDLAND...</value>
+        </Data>
+      </ExtendedData>
+      <ExtendedData xmlns:tc="https://www.nhc.noaa.gov/cyclones">
+        <tc:type>Hurricane</tc:type>
+        <tc:name>Larry</tc:name>
+        <tc:wallet>AT2</tc:wallet>
+        <tc:atcfID>AL122021</tc:atcfID>
+        <tc:centerLat>30.9</tc:centerLat>
+        <tc:centerLon>-61.1</tc:centerLon>
+        <tc:dateTime>5:00 AM AST Thu Sep 9</tc:dateTime>
+        <tc:movement>NNW at 16 mph</tc:movement>
+        <tc:minimumPressure>969 mb</tc:minimumPressure>
+        <tc:maxSustainedWind>100 mph</tc:maxSustainedWind>
+        <tc:headline> ...BERMUDA WEATHER SERVICE RADAR SHOWS RAINBANDS APPROACHING... ...HURRICANE AND TROPICAL STORM WATCHES ARE IN EFFECT FOR SOUTHEASTERN NEWFOUNDLAND...</tc:headline>
+      </ExtendedData>
+      <NetworkLink id="pasttrack">
+        <name>Past Track</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/gis/best_track/al122021_best_track.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="cone">
+        <name>Cone of Uncertainty</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL122021_035adv_CONE.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="track">
+        <name>Track Forecast</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL122021_035adv_TRACK.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="ww">
+        <name>Wind Watches and Warnings</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL122021_035adv_WW.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="initialwindfield">
+        <name>Initial Extent of Winds</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL122021_initialradii_035adv.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder id="at3">
+      <name>Tropical Depression Mindy</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <ExtendedData>
+        <Data name="tcType">
+          <value>Tropical Depression</value>
+        </Data>
+        <Data name="tcName">
+          <value>Mindy</value>
+        </Data>
+        <Data name="wallet">
+          <value>AT3</value>
+        </Data>
+        <Data name="atcfID">
+          <value>AL132021</value>
+        </Data>
+        <Data name="centerLat">
+          <value>30.8</value>
+        </Data>
+        <Data name="centerLon">
+          <value>-83.0</value>
+        </Data>
+        <Data name="dateTime">
+          <value>5:00 AM EDT Thu Sep 9</value>
+        </Data>
+        <Data name="movement">
+          <value>NE at 20 mph</value>
+        </Data>
+        <Data name="minimumPressure">
+          <value>1004 mb</value>
+        </Data>
+        <Data name="maxSustainedWind">
+          <value>35 mph</value>
+        </Data>
+        <Data name="headline">
+          <value> ...HEAVY RAINFALL FROM MINDY SPREADING INLAND OVER SOUTHEASTERN GEORGIA AND COASTAL SOUTH CAROLINA...</value>
+        </Data>
+      </ExtendedData>
+      <ExtendedData xmlns:tc="https://www.nhc.noaa.gov/cyclones">
+        <tc:type>Tropical Depression</tc:type>
+        <tc:name>Mindy</tc:name>
+        <tc:wallet>AT3</tc:wallet>
+        <tc:atcfID>AL132021</tc:atcfID>
+        <tc:centerLat>30.8</tc:centerLat>
+        <tc:centerLon>-83.0</tc:centerLon>
+        <tc:dateTime>5:00 AM EDT Thu Sep 9</tc:dateTime>
+        <tc:movement>NE at 20 mph</tc:movement>
+        <tc:minimumPressure>1004 mb</tc:minimumPressure>
+        <tc:maxSustainedWind>35 mph</tc:maxSustainedWind>
+        <tc:headline> ...HEAVY RAINFALL FROM MINDY SPREADING INLAND OVER SOUTHEASTERN GEORGIA AND COASTAL SOUTH CAROLINA...</tc:headline>
+      </ExtendedData>
+      <NetworkLink id="pasttrack">
+        <name>Past Track</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/gis/best_track/al132021_best_track.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="cone">
+        <name>Cone of Uncertainty</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL132021_003adv_CONE.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="track">
+        <name>Track Forecast</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL132021_003adv_TRACK.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="initialwindfield">
+        <name>Initial Extent of Winds</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/AL132021_initialradii_003adv.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+    <Folder id="ep5">
+      <name>Tropical Storm Olaf</name>
+      <visibility>1</visibility>
+      <open>1</open>
+      <ExtendedData>
+        <Data name="tcType">
+          <value>Tropical Storm</value>
+        </Data>
+        <Data name="tcName">
+          <value>Olaf</value>
+        </Data>
+        <Data name="wallet">
+          <value>EP5</value>
+        </Data>
+        <Data name="atcfID">
+          <value>EP152021</value>
+        </Data>
+        <Data name="centerLat">
+          <value>20.5</value>
+        </Data>
+        <Data name="centerLon">
+          <value>-108.0</value>
+        </Data>
+        <Data name="dateTime">
+          <value>3:00 AM MDT Thu Sep 9</value>
+        </Data>
+        <Data name="movement">
+          <value>NNW at 6 mph</value>
+        </Data>
+        <Data name="minimumPressure">
+          <value>993 mb</value>
+        </Data>
+        <Data name="maxSustainedWind">
+          <value>65 mph</value>
+        </Data>
+        <Data name="headline">
+          <value> ...OLAF STILL STRENGTHENING AND FORECAST TO BECOME A HURRICANE LATER TODAY... ...HURRICANE WARNINGS ISSUED FOR SOUTHERN PORTIONS OF BAJA CALIFORNIA SUR...</value>
+        </Data>
+      </ExtendedData>
+      <ExtendedData xmlns:tc="https://www.nhc.noaa.gov/cyclones">
+        <tc:type>Tropical Storm</tc:type>
+        <tc:name>Olaf</tc:name>
+        <tc:wallet>EP5</tc:wallet>
+        <tc:atcfID>EP152021</tc:atcfID>
+        <tc:centerLat>20.5</tc:centerLat>
+        <tc:centerLon>-108.0</tc:centerLon>
+        <tc:dateTime>3:00 AM MDT Thu Sep 9</tc:dateTime>
+        <tc:movement>NNW at 6 mph</tc:movement>
+        <tc:minimumPressure>993 mb</tc:minimumPressure>
+        <tc:maxSustainedWind>65 mph</tc:maxSustainedWind>
+        <tc:headline> ...OLAF STILL STRENGTHENING AND FORECAST TO BECOME A HURRICANE LATER TODAY... ...HURRICANE WARNINGS ISSUED FOR SOUTHERN PORTIONS OF BAJA CALIFORNIA SUR...</tc:headline>
+      </ExtendedData>
+      <NetworkLink id="pasttrack">
+        <name>Past Track</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/gis/best_track/ep152021_best_track.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="cone">
+        <name>Cone of Uncertainty</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP152021_007adv_CONE.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="track">
+        <name>Track Forecast</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP152021_007adv_TRACK.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="ww">
+        <name>Wind Watches and Warnings</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP152021_007adv_WW.kmz</href>
+        </Link>
+      </NetworkLink>
+      <NetworkLink id="initialwindfield">
+        <name>Initial Extent of Winds</name>
+        <visibility>1</visibility>
+        <open>0</open>
+        <Link>
+          <href>https://www.nhc.noaa.gov/storm_graphics/api/EP152021_initialradii_007adv.kmz</href>
+        </Link>
+      </NetworkLink>
+    </Folder>
+  </Document>
+</kml>
